@@ -86,7 +86,7 @@ def analyze_document(file_bytes: bytes) -> dict:
 st.title("📇 Credit Card Validator with Azure Document Intelligence")
 st.write(
     "Upload an image (or PDF) of a credit card and the app will attempt to read the number "
-    "using Azure Document Intelligence and then validate it with the Luhn checksum."
+    "using Azure Document Intelligence."
 )
 
 uploaded = st.file_uploader("Choose an image or PDF file", type=["jpg", "jpeg", "png", "pdf"])
